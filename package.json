@@ -8,6 +8,9 @@
     "dev": "turbo run dev",
     "start": "turbo run start"
   },
+  "workspaces": [
+    "packages/*"
+  ],
   "keywords": [],
   "author": "xHyroM",
   "license": "MIT",
