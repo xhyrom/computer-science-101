@@ -1,3 +1,5 @@
+# Initialization vs Declaration vs Definition
+
 ## Initialization
 
 Initialization is the process of assigning an initial value to a variable. It occurs after the variable has been declared. Initializing a variable gives it an initial value so that it has a valid and predictable state when used in subsequent code. The initial value can be specified at the time of declaration or at a later point in the program.

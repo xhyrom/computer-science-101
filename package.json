@@ -2,13 +2,15 @@
   "name": "computer-science-101",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "start": "turbo run start"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "xHyroM",
+  "license": "MIT",
   "devDependencies": {
     "tsup": "^6.7.0",
     "turbo": "^1.9.3",
