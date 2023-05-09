@@ -21,7 +21,7 @@ const articles = await getArticles(
               <h2 class="break-words text-3xl font-bold text-white">
                 {article.title}
               </h2>
-              <h3 class="mb-4 text-lg text-gray-500">
+              <h3 class="mb-4 text-lg text-gray-300">
                 {readingTime(article.content)}{" "}
                 {readingTime(article.content) === 1 ? "minute" : "minutes"}
               </h3>
