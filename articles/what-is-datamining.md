@@ -15,4 +15,4 @@ The primary objective of data mining is to discover hidden patterns and valuable
 
 Data mining has applications in customer segmentation, fraud detection, recommendation systems, and more.
 
-More info - https://www.investopedia.com/terms/d/datamining.asp
+More info - [investopedia](https://www.investopedia.com/terms/d/datamining.asp)
