@@ -40,10 +40,12 @@ const { class: className } = Astro.props;
     />
   </head>
   <body class="overflow-x-hidden bg-dark font-sans">
-    <div class="flex flex-col min-h-screen">
-      <a href="/">
-        <div class="h-[9px] cursor-pointer bg-yellow"></div>
-      </a>
+    <div class="flex min-h-screen flex-col">
+      <div
+        onclick="window.location.replace('/')"
+        class="h-[9px] cursor-pointer bg-yellow"
+      >
+      </div>
 
       <div class="flex-grow">
         <slot />
